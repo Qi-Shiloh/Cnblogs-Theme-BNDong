@@ -3,7 +3,6 @@ $(document).ready(function () {
         cparent = 'cnblogs_post_body',
         ch1,
         ch2,
-	ch3,
         s = $('#' + cparent);
     if (s.length === 0) {
         return
