@@ -3,13 +3,12 @@ $(document).ready(function () {
         cparent = 'cnblogs_post_body',
         ch1,
         ch2,
-	ch3,
         s = $('#' + cparent);
     if (s.length === 0) {
         return
     }
     ch1 = s.find('h1');
-    ch2 = s.find('h3');
+    ch2 = s.find('h2');
 
     if (ch1.length > 0) {
         for (var i = 0; i < ch1.length; i++) {
@@ -71,5 +70,4 @@ $(document).ready(function () {
             ) ;
         }
     }
-	
 });
